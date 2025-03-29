@@ -1,11 +1,12 @@
 pkgbase = aic8800-dkms
 	pkgdesc = Kernel modules for BrosTrend AX300 WiFi 6
 	pkgver = 1.0.6
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.brostrend.com/products/ax5l
 	arch = any
 	license = GPLv2
 	makedepends = dos2unix
+	depends = dkms
 	source = https://linux.brostrend.com/aic8800-dkms.deb
 	source = 0001-Make-CONFIG_RFTEST-n-valid.patch
 	source = 0002-Fix-DKMS-config.patch

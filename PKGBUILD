@@ -1,7 +1,7 @@
 # Maintainer: Franck Duriez <franck@duriez.info>
 pkgname=aic8800-dkms
 pkgver=1.0.6
-pkgrel=1
+pkgrel=2
 pkgdesc="Kernel modules for BrosTrend AX300 WiFi 6"
 arch=('any')
 url="https://www.brostrend.com/products/ax5l"
@@ -20,6 +20,7 @@ sha512sums=('b5bfb20d5ad128f66c923c5ee278acbcf29b406c17efe5cdd2b1e5838f44559f5e7
             '74cc351b6d7f173847d8541c2fb0ec5b17cdf01450fefc39c1bdd2008ce06868764b638e5402f460f612d8b273593142e864278323d1db7bf5793b34b6f0b550'
             '76c3cc172c7502c737dfcf00b7f1a707cc4068f723561db706ffb4533a3101fef81f85838c8ad629bbfabc43482219a2d96f445ba1eded0aa1b63ba594fe8a58'
             '01b26ef55bcb407edd358ae8fcc29827132361b3aea171c28d4377fd0824f4fb19bd73ccfe98a920d8cac8ff2fccec770f562771b2a1aad2bdbc64485bcae5b2')
+depends=('dkms')
 makedepends=('dos2unix')
 
 prepare() {
